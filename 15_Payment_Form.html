@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15_Payment_Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <h2>Contact information</h2>
+        <p>Name: <input type="text" required> </p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            Male: <input type="radio" name="gender" id="gender">
+            Female: <input type="radio" name="gender" id="gender">
+        </p>
+        </fieldset>
+
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <p>Email: <input type="email" name="email" id="email"></p>
+        <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+        <br>
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="card_type" id="card_type">
+                <option value="">----Select a card type----</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="rupay">Rupay</option>
+            </select>
+        </p>
+        <p>
+            Card Number: <input type="cnum" name="cnum" id="cnum">
+        </p>
+        
+            <input type="submit" value="pay now">
+        
+
+    </form>
+</body>
+</html>
